@@ -4,25 +4,25 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div className="h-screen bg-background">
-            <div className="flex flex-col p-10 items-center justify-center">
-             <div className="absolute w-4/5 h-3/5 bg-lightGrey rounded-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0 drop-shadow-xl" style={{ borderRadius: '50%' }}>
-                <div className="flex flex-row justify-center items-center z-10 p-10">
-                    <img src={me} alt="me" className="w-80 rounded-lg mx-10 drop-shadow-xl"/>
-                    <div className="flex flex-col space-y-5 ml-15">
-                        <div className="font-title text-8xl text-navy drop-shadow-xl">Hello, I'm Renee!</div>
-                        <div className="font-body text-3xl text-blue drop-shadow-lg">A third year computer science/AI student at Queen’s University with a passion for digital marketing!</div>
-                        <div className="flex flex-row gap-20 font-body ml-10 mr-20 text-blue text-xl">
-                            <Link to='/about' className='bg-background px-5 py-2 rounded-lg hover:scale-105 shadow-inner hover:text-navy hover:drop-shadow-md'>
+        <div className="flex items-center flex-col bg-background min-h-full p-20 pb-40">
+            <div className="relative flex flex-col justify-start items-center w-full max-w-5xl h-auto bg-lightGrey rounded-full drop-shadow-xl p-10" style={{ borderRadius: '50%' }}>
+                <div className="flex sm:flex-row flex-col items-center justify-center z-10 text-center space-y-4">
+                    <img src={me} alt="me" className="w-60 md:w-60 rounded-full drop-shadow-xl"/>
+                    <div className="flex flex-col items-center">
+                        <div className="font-title text-5xl md:text-8xl text-navy drop-shadow-xl mb-3">Hello, I'm Renee!</div>
+                        <div className="w-11/12 sm:w-3/4 font-body text-base sm:text-sm md:text-sm lg:text-2xl text-blue drop-shadow-lg mb-5">
+                            A third-year computer science/AI student at Queen’s University with a passion for digital marketing!
+                        </div>
+                        <div className="flex flex-col md:flex-row gap-4 font-body text-blue text-base md:text-lg">
+                            <Link to='/about' className='bg-background px-4 py-2 rounded-lg hover:scale-105 shadow-inner hover:text-navy hover:drop-shadow-md text-center'>
                                 About Me
                             </Link>
-                            <Link to='/project' className='bg-background px-5 py-2 rounded-lg hover:scale-105 shadow-inner hover:text-navy hover:drop-shadow-md'>
+                            <Link to='/project' className='bg-background px-4 py-2 rounded-lg hover:scale-105 shadow-inner hover:text-navy hover:drop-shadow-md text-center'>
                                 My Projects
                             </Link>
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     );

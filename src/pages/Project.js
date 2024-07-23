@@ -10,7 +10,7 @@ import Sonder from '../assets/Sonder.png';
 const Project = () => {
     return (
         <div className="flex justify-items-center flex-col bg-background">
-            <div className="text-center font-title text-navy text-8xl z-10 drop-shadow-md">My Projects</div>
+            <div className="text-center font-title text-navy text-5xl md:text-8xl z-10 drop-shadow-md mt-10">My Projects</div>
             <div className="absolute w-4/5 h-5/6 bg-lightGrey rounded-full left-1/2 top-3/4 transform -translate-x-1/2 -translate-y-1/2 z-0 drop-shadow-xl" style={{ borderRadius: '50%' }}></div>
             <div className="flex flex-row flex-wrap items-stretch justify-center px-20 py-10 gap-20">
                 <ProjectDisplay 

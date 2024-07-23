@@ -15,12 +15,12 @@ const About = () => {
     return (
         <div className="flex justify-center flex-col bg-background">
             <div className="absolute w-4/5 h-5/6 bg-lightGrey rounded-full left-1/2 top-3/4 transform -translate-x-1/2 -translate-y-1/2 z-0 drop-shadow-xl" style={{ borderRadius: '50%' }}></div>
-            <div className="flex justify-center font-title text-8xl text-navy z-10 drop-shadow-md">About Me</div>
-            <div className="flex justify-center gap-20 text-lg font-body text-grey mt-10">
+            <div className="flex justify-center font-title text-5xl md:text-8xl text-navy z-10 drop-shadow-md mt-10">About Me</div>
+            <div className="flex flex-wrap justify-center gap-20 sm:grap-10text-lg font-body text-grey mt-10">
                 <a href={resume} download className="underline drop-shadow-sm hover:text-blue">Download my resume</a>
                 <a href={coverLetter} download className="underline drop-shadow-sm hover:text-blue">Download my cover letter</a>
             </div>
-            <div className="flex flex-row flex-wrap gap-20 px-20 pt-5 my-10 justify-center">
+            <div className="flex flex-row flex-wrap gap-20 px-20 py-10 justify-center">
                 <Card 
                     imageSrc={hackathon}
                     title="Hackathon Enthusiast"
@@ -50,8 +50,7 @@ const About = () => {
                     imageSrc={cat}
                     title="Owner of the Cutest Cat Ever"
                     description="I have a super cute cat named Apollo! He is a Siamese cat and loves food!"
-                />
-                
+                />  
             </div>
         </div>
     );
