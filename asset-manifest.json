@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/renee-new-website/static/css/main.02d9ad34.css",
+    "main.js": "/renee-new-website/static/js/main.c9d09f80.js",
+    "static/js/453.ea9006f8.chunk.js": "/renee-new-website/static/js/453.ea9006f8.chunk.js",
+    "static/media/pic3.jpg": "/renee-new-website/static/media/pic3.221a04cc74c2902913ee.jpg",
+    "static/media/pic2.png": "/renee-new-website/static/media/pic2.58f98ae1d91010a43299.png",
+    "static/media/pic5.jpg": "/renee-new-website/static/media/pic5.13444c24dd57369a5528.jpg",
+    "static/media/Sonder.png": "/renee-new-website/static/media/Sonder.b9f2082490ac5782db48.png",
+    "static/media/pic1.jpg": "/renee-new-website/static/media/pic1.a272cd864131996f7562.jpg",
+    "static/media/pic4.jpg": "/renee-new-website/static/media/pic4.6da6a05456565752ec67.jpg",
+    "static/media/resume.pdf": "/renee-new-website/static/media/resume.99c152458747815683b0.pdf",
+    "static/media/me.jpg": "/renee-new-website/static/media/me.460bb2e0fd861135e7bb.jpg",
+    "static/media/pic6.jpg": "/renee-new-website/static/media/pic6.03a06ca258050cee3945.jpg",
+    "static/media/roomieMatch.png": "/renee-new-website/static/media/roomieMatch.b8c9fe3db42ee486bcf7.png",
+    "static/media/Lovelace.png": "/renee-new-website/static/media/Lovelace.8b0e02cda2cf392ed13f.png",
+    "static/media/CoverLetter.pdf": "/renee-new-website/static/media/CoverLetter.e102cdf7a23c2142e838.pdf",
+    "static/media/calCalculator.png": "/renee-new-website/static/media/calCalculator.047c26d762de48a0986d.png",
+    "static/media/profile-user.png": "/renee-new-website/static/media/profile-user.5a0e8cdaa69e4c79b91a.png",
+    "static/media/todoList.png": "/renee-new-website/static/media/todoList.9a3b17e6339716bc12be.png",
+    "static/media/invention.png": "/renee-new-website/static/media/invention.7bd16000df296af7a24f.png",
+    "index.html": "/renee-new-website/index.html",
+    "main.02d9ad34.css.map": "/renee-new-website/static/css/main.02d9ad34.css.map",
+    "main.c9d09f80.js.map": "/renee-new-website/static/js/main.c9d09f80.js.map",
+    "453.ea9006f8.chunk.js.map": "/renee-new-website/static/js/453.ea9006f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02d9ad34.css",
+    "static/js/main.c9d09f80.js"
+  ]
+}
