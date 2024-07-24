@@ -7,7 +7,7 @@ import project from '../assets/invention.png';
 
 const Header = () => {
     return (
-        <div className="grid justify-items-end px-10 pt-10 pb-5 mr-10">
+        <div className="grid lg:justify-end lg:px-20 justify-center pt-10">
             <div className="flex flex-row gap-10">
                 <Link to="/" >
                     <img src={home} alt="home" className="w-8 h-8 hover:scale-110 hover:drop-shadow-md"/>

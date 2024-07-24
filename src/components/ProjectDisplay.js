@@ -22,7 +22,7 @@ const ProjectDisplay = ({ imageSrc, title, description, link1, link2 }) => {
                         {description}
                     </p>
                 </div>
-                <div className="flex justify-between mt-auto align-baseline">
+                <div className="flex justify-between flex-col space-y-5 mt-auto mx-5 align-baseline">
                     <button onClick={handleCardClick1} className="font-body font-bold bg-lightBlue px-2 py-1 rounded-md text-navy drop-shadow-sm hover:scale-105 hover:drop-shadow-md">View Project</button>
                     <button onClick={handleCardClick2} className="font-body font-bold bg-lightBlue px-2 py-1 rounded-md text-navy drop-shadow-sm hover:scale-105 hover:drop-shadow-md">View Code</button>
                 </div>

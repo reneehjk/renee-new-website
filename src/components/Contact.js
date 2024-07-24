@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <footer className="bg-blue text-lightBlue py-6 px-20 text-center shadow-lg">
+        <footer className="bg-blue text-lightBlue py-6 lg:px-20 px-2 text-center shadow-lg">
             <div className="flex flex-row justify-between lg:mx-20 font-body">
                 <a href="https://devpost.com/reneehjkim11" target="_blank" rel="noopener noreferrer" className="drop-shadow-lg hover:text-background">
                     Devpost
