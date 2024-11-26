@@ -10,7 +10,7 @@ import Header from './components/Header';
 function App() {
   return (
     <Router basename="/renee-new-website">
-      <div className='bg-background h-screen'>
+      <div className='bg-background h-screen select-none'>
         <main>
           <Header />
           <Routes>

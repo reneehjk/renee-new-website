@@ -5,6 +5,8 @@ import Roomie from '../assets/roomieMatch.png';
 import calorie from '../assets/calCalculator.png';
 import todo from '../assets/todoList.png';
 import Sonder from '../assets/Sonder.png';
+import hbh from "../assets/hbh.png";
+import qwic from "../assets/QWIC.png";
 
 
 const Project = () => {
@@ -13,6 +15,20 @@ const Project = () => {
             <div className="text-center font-title text-navy text-5xl md:text-8xl z-10 drop-shadow-md mt-10">My Projects</div>
             <div className="absolute w-4/5 h-5/6 bg-lightGrey rounded-full left-1/2 top-3/4 transform -translate-x-1/2 -translate-y-1/2 z-0 drop-shadow-xl" style={{ borderRadius: '50%' }}></div>
             <div className="flex flex-row flex-wrap items-stretch justify-center px-20 py-10 gap-20">
+                <ProjectDisplay 
+                    imageSrc={hbh}
+                    title="Helping Brains Heal"
+                    description="A website created for the HBH foundation that donates care packages to concussion survivors. Created using React, Tailwind CSS and Sanity"
+                    link1="https://www.helpingbrainsheal.ca/"
+                    link2="https://github.com/reneehjk/helping-brains-heal" 
+                />
+                <ProjectDisplay 
+                    imageSrc={qwic}
+                    title="QWIC Website"
+                    description="Led the creation of a new website from scratch for the Queen's Women in Computing club at Queen's University using Next.js and Tailwind CSS."
+                    link1="https://qwic.org/"
+                    link2="https://github.com/queens-wic/qwic" 
+                />
                 <ProjectDisplay 
                     imageSrc={Lovelace}
                     title="Lovelace Logs"
