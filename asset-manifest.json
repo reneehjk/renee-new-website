@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/renee-new-website/static/css/main.23b1e5c2.css",
-    "main.js": "/renee-new-website/static/js/main.2c8d4f8f.js",
+    "main.css": "/renee-new-website/static/css/main.e5ad3c78.css",
+    "main.js": "/renee-new-website/static/js/main.bdde3901.js",
     "static/js/453.ea9006f8.chunk.js": "/renee-new-website/static/js/453.ea9006f8.chunk.js",
     "static/media/pic3.jpg": "/renee-new-website/static/media/pic3.221a04cc74c2902913ee.jpg",
     "static/media/pic2.png": "/renee-new-website/static/media/pic2.58f98ae1d91010a43299.png",
+    "static/media/QWIC.png": "/renee-new-website/static/media/QWIC.d964f9ba5bcaa5f92de3.png",
     "static/media/pic5.jpg": "/renee-new-website/static/media/pic5.13444c24dd57369a5528.jpg",
     "static/media/Sonder.png": "/renee-new-website/static/media/Sonder.b9f2082490ac5782db48.png",
     "static/media/pic1.jpg": "/renee-new-website/static/media/pic1.a272cd864131996f7562.jpg",
     "static/media/pic4.jpg": "/renee-new-website/static/media/pic4.6da6a05456565752ec67.jpg",
-    "static/media/resume.pdf": "/renee-new-website/static/media/resume.8d8de143a9c74fab0518.pdf",
+    "static/media/resume.pdf": "/renee-new-website/static/media/resume.92a763011c6fe214b5cb.pdf",
+    "static/media/hbh.png": "/renee-new-website/static/media/hbh.45ba6ca4cf6bc0c2346f.png",
     "static/media/me.jpg": "/renee-new-website/static/media/me.460bb2e0fd861135e7bb.jpg",
     "static/media/pic6.jpg": "/renee-new-website/static/media/pic6.03a06ca258050cee3945.jpg",
     "static/media/roomieMatch.png": "/renee-new-website/static/media/roomieMatch.b8c9fe3db42ee486bcf7.png",
@@ -20,12 +22,12 @@
     "static/media/todoList.png": "/renee-new-website/static/media/todoList.9a3b17e6339716bc12be.png",
     "static/media/invention.png": "/renee-new-website/static/media/invention.7bd16000df296af7a24f.png",
     "index.html": "/renee-new-website/index.html",
-    "main.23b1e5c2.css.map": "/renee-new-website/static/css/main.23b1e5c2.css.map",
-    "main.2c8d4f8f.js.map": "/renee-new-website/static/js/main.2c8d4f8f.js.map",
+    "main.e5ad3c78.css.map": "/renee-new-website/static/css/main.e5ad3c78.css.map",
+    "main.bdde3901.js.map": "/renee-new-website/static/js/main.bdde3901.js.map",
     "453.ea9006f8.chunk.js.map": "/renee-new-website/static/js/453.ea9006f8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.23b1e5c2.css",
-    "static/js/main.2c8d4f8f.js"
+    "static/css/main.e5ad3c78.css",
+    "static/js/main.bdde3901.js"
   ]
 }
